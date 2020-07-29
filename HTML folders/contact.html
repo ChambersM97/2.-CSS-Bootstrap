@@ -1,5 +1,14 @@
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="./dab.html">Chambers Mansour</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,3 +33,24 @@
 </nav>
 
 <h1>Contact Info</h1>
+
+<form action="/action_page.php">
+  <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name">
+  <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Last name">
+  <label for="email">Email-Address</label>
+    <input type="text" id="email" name="Email-Address" placeholder="Email-Address">
+  <label for="Timezone">Timezone</label>
+        <select id="timezone" name="What timezone are you in? ">
+          <option value="Est">Eastern Standard Time</option>
+          <option value="Cst ">Centeral Standard Time</option>
+          <option value="Pst">Pacific Standard Time</option>
+          <option value="Atz">Alaska Time Zone</option>
+          <option value="Mst">Mountain Standard Time</option>
+        </select>
+  <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Tell me about the Project" style="height:35px"></textarea>
+        <input type="submit" value="Submit">
+</body>
+</html>
