@@ -6,4 +6,4 @@ the 3 pages to together using the images in the navbar for each. After, I added 
 responsive. The first webpage that I finished was the contact page. The two inputs I used from bootstrap were capable of being responsive on their
 own. After holding placeholder images to the portfolio page and a profile picture to the main page, the last thing I had to do was make my collapse nav bar work. However, the main problem I'm having is that my navbar text at the top is at different locations on each page. I was going to use
 a background as well, but I was having trouble getting it to stretch all the way vertically on all devices. The code for it is 
-noted out in my styles.css folder. 
+noted out in my styles.css folder. I was also having trouble finding ways in bootstrap to edit the text on the main page.
