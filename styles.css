@@ -1,9 +1,14 @@
 body {
     background-image: url(./windows_xp_bliss-wide.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
 }
 
-p {
-    width: 35%;
+.container {
+    width: 100%
+}
+
+#subject {
+    margin-top: 20px;
+    padding: 10px;
 }
